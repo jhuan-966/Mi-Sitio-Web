@@ -1,0 +1,43 @@
+/*Todo lo del Banner colocación de imagenes y configuraciones de las celdas de la Tabla*/
+body {padding:0; margin:0; height:100%; background:url(images/bg_main.jpg) top right repeat-x}
+table, td {border-collapse:collapse;}
+table, td, img {border:0; padding:0;}
+form, td{margin:0; padding:0;}
+html {height:100%;}
+br{font-size:10px}
+table{border:0px; border-collapse:collapse;	}
+/*Continuación todo lo referente al cuerpo de la pagina configurando tamaño texto, espacion etc.*/
+body, td{
+	font-size:11px;
+    font-family:Tahoma;
+	color:#555555;
+	line-height:14px;
+	vertical-align:top;
+	padding:0px;
+}
+
+/*Para que las imagenes de mision vision queines somos queden a un lado y el texto alfrente*/
+#page1 #content .col1{ width:309px}
+#page1 #content .col1 .row1{ height:283px}
+#page1 #content .col1 .row1 .box1{ width:305px; background:#f2f2f2}
+#page1 #content .col1 .row1 .box1 div{ padding:30px 20px 10px 25px}
+#page1 #content .col1 .row1 .box1 .title{ margin:0px 0px 30px 4px}
+#page1 #content .col1 .row1 .box1 .indent{ margin:23px 0px 24px 0px}
+#page1 #content .col1 .row1 .box2{ width:4px; background:url(images/bg_shad_right.gif) top left repeat-y}
+#page1 #content .col1 .row2{ height:159px; width:309px}
+#page1 #content .col1 .row2 .box1{ height:3px; background:url(images/bg_shadow_bot.gif) bottom left repeat-x}
+#page1 #content .col1 .row2 .box2{ height:156px}
+#page1 #content .col1 .row2 .box2 div{ padding:30px 10px 10px 26px}
+#page1 #content .col1 .row2 .box2 .title{ margin:0px 0px 26px 0px}
+#page1 #content .col2{ width:457px; padding:26px 0 0 29px}
+#page1 #content .col2 .indent{ margin:15px 0 26px 0px}
+#page1 #content .col2 .title{ margin:0px 0 25px 0px}
+
+
+/*Para no dejar que el texto de autor no se pegue contra la pantalla*/
+#footer { height:79px; background:url(images/bg_footer.gif) top left repeat-x}
+#footer .col1{ width:491px}
+#footer .col1 div{ padding:35px 15px 10px 37px}
+
+
+
